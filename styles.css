@@ -50,6 +50,15 @@
   .social {
     display: none;
   }
+  .body {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+  }
+  .h1 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 .profile {
@@ -70,8 +79,6 @@ img {
 
 h1 {
   font-weight: bold;
-  font-family: Times, "Times New Roman", serif;
-  font-size: 35px;
   text-align: center;
   padding-left: 25%;
   padding-right: 25%;
@@ -83,22 +90,9 @@ h1 {
 
 .body {
   text-align: left;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 25%;
+  padding-right: 25%;
   padding-bottom: 2%;
-}
-
-@media only screen and (max-width: 600px) {
-  .body {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 2%;
-  }
-  .th {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 2%;
-  }
 }
 
 .buttons {
@@ -107,13 +101,8 @@ h1 {
 }
 
 tr {
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-th {
-  padding-left: 25%;
-  padding-right: 25%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 h4, h5, h6 {
@@ -134,13 +123,11 @@ li {
   text-align: left;
 }
 
-
-
 .social {
   position: fixed;
   padding-left: 12.5%;
   padding-bottom: 5%;
-  left: -2em;
+  left: 0em;
   bottom: 0em;
 }
 
