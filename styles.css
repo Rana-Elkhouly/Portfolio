@@ -73,8 +73,13 @@
 img {
   margin-left: 10px;
 }
-.pic {
 
+thead {
+  text-align: center;
+}
+
+.project {
+  font-weight: bolder;
 }
 
 h1 {
